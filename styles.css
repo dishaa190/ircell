@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+:root{
+    --main-background-color: rgb(242, 253, 242);
+    
+}
+
+body{
+    
+    background-color: #e8e9eb;
+}
+
+.bar{
+    height:88px;
+    /*background-color: #379b9b;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    
+    }
+
+.content{
+    height: 590px;
+    background-color: #e8e9eb;
+   /* font-family: 'Oswald', sans-serif;*/
+   font-family: 'Playfair Display', serif;
+
+}
+
+
+
+.footer{
+    height: 42px;
+   /* background-color: #379b9b;*/
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.right{
+    display:flex;
+}
+
+.right ul{
+    display: flex;
+}
+
+.right ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+}
+
+.leftcon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+.rightcon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.rightcon img{
+    height: 557px;
+    width: 561px;
+    border: 8px solid #555;
+}
+
+.left img{
+    height: 92px;
+    width:146px;
+}
+
+.home{
+    background-color: rgb(243, 233, 233);
+    height: 300px;
+    position: relative;
+}
+
+
+
+.home h2{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.articles{
+    background-color: rgb(248, 242, 242);
+}
+
+.articles ul li #art1{
+    height: 100px;
+    width: 100px;
+}
+
+.articles ul li #art2{
+    height: 100px;
+    width: 100px;
+}
+
+.articles ul li #art3{
+    height: 100px;
+    width: 100px;
+}
+
+.articles ul{
+    list-style: none;
+    display: flex;  
+}
+
+.articles ul li{
+    padding: 0px 10px;
+}
+
+.articles ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro h1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family:'Playfair Display', serif;
+    
+    font-style: oblique;
+    color: rgb(19, 14, 10);
+
+}
+
+.intro{
+    padding-bottom: 20px;
+}
+
+.blog{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#auth{
+    font-size: x-small;
+    font-weight: 100;
+}

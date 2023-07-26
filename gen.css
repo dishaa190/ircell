@@ -1,0 +1,30 @@
+.width1{
+    max-width: 80vw;
+}
+
+.width2{
+    max-width: 60vw;
+}
+
+.mauto{
+    margin:auto;
+}
+
+:root{
+    --main-background-color: rgb(242, 253, 242);
+}
+
+.bt{
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bt:hover{
+    color: gold;
+    background-color: black;
+}
+
+.form{
+    margin: 0px 12px;
+}

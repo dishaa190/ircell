@@ -1,0 +1,18 @@
+/*@media screen and (max-width:1300px){
+
+.bar{
+    flex-direction: column;
+    margin-bottom: 23px;
+    height:auto;
+}
+
+.right{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rightcon img{
+    display: none;
+}
+}*/
